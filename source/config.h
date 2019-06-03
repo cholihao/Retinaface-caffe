@@ -10,18 +10,18 @@ extern float pixel_scale;
 
 
 class AnchorCfg {
-public:
-	  std::vector<float> SCALES;	
-	  std::vector<float> RATIOS;
-	  int BASE_SIZE;
+    public:
+	std::vector<float> SCALES;
+	std::vector<float> RATIOS;
+	int BASE_SIZE;
 
-      AnchorCfg() {}
-      ~AnchorCfg() {}
-	  AnchorCfg(const std::vector<float> s, const std::vector<float> r, int size) {
-			  SCALES = s;
-			  RATIOS = r;
-			  BASE_SIZE = size;
-	  }
+	AnchorCfg() {}
+	~AnchorCfg() {}
+	AnchorCfg(const std::vector<float> s, const std::vector<float> r, int size) {
+	    SCALES = s;
+	    RATIOS = r;
+	    BASE_SIZE = size;
+	}
 };
 
 #define fmc 3
