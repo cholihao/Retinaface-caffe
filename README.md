@@ -1,5 +1,5 @@
 # Add mobilenet v2 0.25 with retinaface-cpp
-The following to download all other converted models, mnetv1_0_25 and R50 are not converted by me.
+The following to download all other converted models, mnetv1_25 and R50 are not converted by me.
 https://drive.google.com/open?id=1VoABSiHXiVlRCEryKtf3UG_BW9236UUp
 # RetinaFace-Cpp
 RetinaFace detector with C++
